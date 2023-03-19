@@ -1,6 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 
-namespace LearnCSharp
+namespace LearnCSharp.Examples
 {
     public static class ArgExpression
     {
@@ -40,8 +40,7 @@ namespace LearnCSharp
 
         public static void Example_2()
         {
-            var countries = new List<string> { "VietNam", "Korea", "Japanse", "China" };
-            Enumerable.Range(0, 10).Sample(1);
+            new List<string> { "VietNam", "Korea", "Japanse", "China" }.Sample(1);
         }
 
         #endregion
